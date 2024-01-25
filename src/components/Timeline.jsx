@@ -6,7 +6,6 @@ import 'react-vertical-timeline-component/style.min.css';
 import '../App.css';
 import bartender from '../assets/bartender.png';
 import data from '../assets/data.png';
-import email from '../assets/email.png';
 import keyboard from '../assets/keyboard.png';
 import nurse from '../assets/nurse.png';
 import school from '../assets/school.png';
