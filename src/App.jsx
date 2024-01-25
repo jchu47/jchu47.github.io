@@ -1,7 +1,10 @@
 import selfie from './assets/selfie.jpg';
+import linkedin from './assets/linkedin.png';
+import email from './assets/email.png';
+import github from './assets/github.png';
 import './App.css';
-import ContactForm from './ContactForm';
-import Timeline from './Timeline';
+import ContactForm from './components/ContactForm';
+import Timeline from './components/Timeline';
 
 function App() {
   return (
@@ -22,16 +25,17 @@ function App() {
           intricacies.
         </p>
         <p>
-          In my spare time I enjoy training several martial arts and learning
-          the mathematics behind video game development.
+          In my spare time I enjoy training different martial arts including
+          muay thai, brazilian jiu jitsu and learning the mathematics behind
+          video game development.
         </p>
       </div>
       <div id='timeline-container'>
         <h2>My Story</h2>
         <Timeline></Timeline>
       </div>
+      <h2 className='highlight'>Portfolio</h2>
       <div id='Portfolio-Container'>
-        <h2 className='highlight'>Portfolio</h2>
         <a href='https://github.com/oslabs-beta/Dockasaurus-RX'>
           <div className='project'>
             <h2 className='project-title'>Dockasaurus-RX</h2>
@@ -95,11 +99,29 @@ function App() {
             </ul>
           </div>
         </a>
-        <div id='Contact'>
-          <h2 className='highlight'>Contact Me</h2>
-          <ContactForm></ContactForm>
-        </div>
       </div>
+      <div id='Contact'>
+        <h2 className='highlight'>Contact Me</h2>
+        <ContactForm></ContactForm>
+      </div>
+      <div className='image-list'>
+        <li>
+          <a href='https://www.linkedin.com/in/justin-chu-10a70a205/'>
+            <img src={linkedin} alt='LinkedIn' className='logo'></img>
+          </a>
+        </li>
+        <li>
+          <a href='https://github.com/jchu47'>
+            <img src={github} alt='Github' className='logo'></img>
+          </a>
+        </li>
+        <li>
+          <a href='mailto:justinchu24@gmail.com'>
+            <img src={email} alt='Email' className='logo'></img>
+          </a>
+        </li>
+      </div>
+      <h3>Color Palete based on my Vscode Theme: SynthWave '84</h3>
     </>
   );
 }

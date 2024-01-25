@@ -3,7 +3,7 @@ import {
   VerticalTimelineElement,
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import './App.css'
+import '../App.css'
 
 function Timeline() {
   return (
@@ -32,6 +32,19 @@ function Timeline() {
         <h4 className='vertical-timeline-element-subtitle'>Suffolk County Community College</h4>
         <p>
           LPN Program including clinical rotations.
+        </p>
+      </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className='vertical-timeline-element--work'
+        contentStyle={{ background: 'rgb(46,33,87)', color: '#fff' }}
+        contentArrowStyle={{ borderRight: '7px solid  rgb(146,0,117)' }}
+        date='2020 - 2022'
+        iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
+        icon={<p></p>}>
+        <h3 className='vertical-timeline-element-title'>Computer Science</h3>
+        <h4 className='vertical-timeline-element-subtitle'>Southern New Hampshire University</h4>
+        <p>
+          Online Accelerated Bachelors Program
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
