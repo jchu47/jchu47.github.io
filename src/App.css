@@ -3,40 +3,202 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  min-width: 300px;
+}
+
+h2 {
+  color: #540d6e;
+  text-decoration: underline;
+  font-size: 4vw;
+  font-size: 4vh;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #920075;
+  width: 90%;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 3vw;
+  font-size: 3vh;
+}
+
+#selfie-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  border: 7px solid #2de2e6;
+  margin: 0 auto;
+  margin-top: 15%;
+  /* Until I get the hamburger working! */
+}
+
+#selfie {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  max-height: 200px;
+  max-width: 200px;
+  margin: 0 auto;
+}
+.time-icon {
+  width: 90%; /* Set the width to 100% */
+  height: 90%; /* Set the height to 100% */
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  border-radius: 50%;
+}
+
+#Portfolio-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* width: 100%;
+  min-width: 400px;
+  max-width: 700px; */
+}
+
+.highlight {
+  padding-top: 40px;
+  /* color: #2de2e6; */
+}
+
+.project {
+  border: 2px solid #920075;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Align content to the center */
+  padding: 3%;
+  margin: 5px;
+
+  width: 40rem; /* Take full width of the container */
+  box-sizing: border-box;
+}
+
+.project:hover {
+  background: #540d6e;
+  cursor: pointer;
+}
+
+.project-title {
+  font-size: larger;
+  color: #f5e6ff;
+}
+
+h3 {
+  font-size: medium;
+  color: #2e2157;
+}
+
+.skills {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.skills li {
+  /* Add any additional styling for each list item */
+  border: 1.5px solid #2de2e6;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+.skills li:last-child {
+  margin-right: 0;
+}
+
+.contact-form {
+  width: 80%;
+  max-width: 500px;
+  margin: auto;
+}
+
+label {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #540d6e;
+}
+
+input,
+textarea {
+  background-color: #0d0221;
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  resize: none;
+}
+
+button {
+  background-color: #540d6e;
+  color: white;
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #2e2157;
+}
+
+#timeline-container {
+  padding-top: 30px;
+}
+
+.vertical-timeline-element-title {
+  color: #2de2e6;
+  font-size: larger;
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+  height: 60px;
+  width: 55px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.image-list {
+  margin-top: 3rem;
+  list-style: none;
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+/* Optional: Add hover effect */
+.image-list a:hover {
+  opacity: 0.8;
+}
+
+/* RESPONSIVE DESIGNS BELOW */
+
+/* NEED TO FIX PORTFOLIO */
+@media only screen and (max-width: 600px) {
+  .about {
+    font-size: 2.5vw;
   }
-  to {
-    transform: rotate(360deg);
+  .project {
+    width: 30rem;
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 1.5rem;
   }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+  .about {
+    justify-items: center;
+    font-size: 1.5vh;
+  }
+  .project {
+    width: 20rem;
+  }
 }
