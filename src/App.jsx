@@ -17,17 +17,15 @@ function App() {
       <div className='about'>
         <p>
           I am a Full Stack Developer proficient in a variety of technologies,
-          including Python, TypeScript, React, Node.js, SQL, Docker and AWS.
+          including TypeScript, React, SQL, Python, Go, Docker and AWS.
         </p>
         <p>
           I particularly enjoy React development and backend work with Go or
-          Python. I am currently learning Java as I enjoy learning lower level
-          intricacies.
+          Python. I am currently in the trenches learning Java.  I enjoy the intricacies of lower level languages, but have a disdain of C++ and the C family. I hate manual memory management
         </p>
         <p>
-          In my spare time I enjoy training different martial arts including
-          muay thai, brazilian jiu jitsu and learning the mathematics behind
-          video game development.
+          In my spare time I: Train various martial arts including
+          muay thai, brazilian jiu jitsu, and boxing. Play videogames and learn about the mathematics and design behind their development.  Study Japanese and watch anime.
         </p>
       </div>
       <div id='timeline-container'>
