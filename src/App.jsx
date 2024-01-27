@@ -21,7 +21,7 @@ function App() {
         </p>
         <p>
           I particularly enjoy React development and backend work with Go or
-          Python. I am currently in the trenches learning Java.  I enjoy the intricacies of lower level languages, but have a disdain of C++ and the C family. I hate manual memory management
+          Python. I am currently in the trenches learning Java and Spring Boot.
         </p>
         <p>
           In my spare time I: Train various martial arts including
