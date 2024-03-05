@@ -95,10 +95,17 @@ function Timeline() {
         date='Today'
         iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
         icon={<img className='time-icon' src={smile} />}>
-        <h3 className='vertical-timeline-element-title'>Software Engineer</h3>
-        <h4 className='vertical-timeline-element-subtitle'>Long Island, NY</h4>
+        <h3 className='vertical-timeline-element-title'>
+          Free Lance Software Engineer
+        </h3>
+        <h4 className='vertical-timeline-element-subtitle'>
+          Data Annotation Tech
+        </h4>
         <p>
-          Looking to join a team and build my skills as a software engineer.
+          Assists in training various AI models by evaluating code quality
+          produced for correctness and performance. Assessing languanges such as
+          Python, Javascript/Typescript, Java, C++ and their various libraries
+          and frameworks.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>
