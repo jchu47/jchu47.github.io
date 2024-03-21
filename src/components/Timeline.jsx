@@ -108,6 +108,23 @@ function Timeline() {
           and frameworks.
         </p>
       </VerticalTimelineElement>
+      <VerticalTimelineElement
+        className='vertical-timeline-element--work'
+        contentStyle={{ background: 'rgb(46,33,87)', color: '#fff' }}
+        contentArrowStyle={{ borderRight: '7px solid  rgb(146,0,117)' }}
+        date='Today'
+        iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
+        icon={<img className='time-icon' src={smile} />}>
+        <h3 className='vertical-timeline-element-title'>
+          Software Engineer seeking a Full-time Position
+        </h3>
+        <h4 className='vertical-timeline-element-subtitle'>
+          New York Metropolitan Area
+        </h4>
+        <p>
+          Looking to join a team of software engineers.  Open to positions nation wide.
+        </p>
+      </VerticalTimelineElement>
     </VerticalTimeline>
   );
 }
