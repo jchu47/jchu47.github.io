@@ -96,7 +96,7 @@ function Timeline() {
         iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
         icon={<img className='time-icon' src={smile} />}>
         <h3 className='vertical-timeline-element-title'>
-          Free Lance Software Engineer
+          Software Engineer
         </h3>
         <h4 className='vertical-timeline-element-subtitle'>
           Data Annotation Tech
