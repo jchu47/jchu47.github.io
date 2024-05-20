@@ -77,26 +77,25 @@ function Timeline() {
         className='vertical-timeline-element--work'
         contentStyle={{ background: 'rgb(46,33,87)', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(146,0,117)' }}
-        date='2022 - 2023'
+        date='Current'
         iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
         icon={<img className='time-icon' src={keyboard} />}>
-        <h3 className='vertical-timeline-element-title'>Codesmith</h3>
-        <h4 className='vertical-timeline-element-subtitle'>Remote</h4>
+        <h3 className='vertical-timeline-element-title'>Software Engineer</h3>
+        <h4 className='vertical-timeline-element-subtitle'>Open Source Labs</h4>
         <p>
-          Completed a Software Engineering Immersive Bootcamp. Learned the
-          necessary technical skills and collaborative skills to work in a team
-          of software engineers.
+          Engineered React MUI components and backend for an open source Docker
+          Desktop extension. Currenlty over 10,000 downloads!
         </p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className='vertical-timeline-element--work'
         contentStyle={{ background: 'rgb(46,33,87)', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(146,0,117)' }}
-        date='Today'
+        date='Current'
         iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
         icon={<img className='time-icon' src={smile} />}>
         <h3 className='vertical-timeline-element-title'>
-          Software Engineer
+          Free Lance Software Engineer
         </h3>
         <h4 className='vertical-timeline-element-subtitle'>
           Data Annotation Tech
@@ -106,23 +105,6 @@ function Timeline() {
           produced for correctness and performance. Assessing languanges such as
           Python, Javascript/Typescript, Java, C++ and their various libraries
           and frameworks.
-        </p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className='vertical-timeline-element--work'
-        contentStyle={{ background: 'rgb(46,33,87)', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(146,0,117)' }}
-        date='Today'
-        iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
-        icon={<img className='time-icon' src={smile} />}>
-        <h3 className='vertical-timeline-element-title'>
-          Software Engineer seeking a Full-time Position
-        </h3>
-        <h4 className='vertical-timeline-element-subtitle'>
-          New York Metropolitan Area
-        </h4>
-        <p>
-          Looking to join a team of software engineers.  Open to positions nation wide.
         </p>
       </VerticalTimelineElement>
     </VerticalTimeline>

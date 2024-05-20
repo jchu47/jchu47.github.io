@@ -24,8 +24,10 @@ function App() {
           Python. I am currently in the trenches learning Java and Spring Boot.
         </p>
         <p>
-          In my spare time I: Train various martial arts including
-          muay thai, brazilian jiu jitsu, and boxing. Play videogames and learn about the mathematics and design behind their development.  Study Japanese and watch anime.
+          In my spare time I: Train various martial arts including muay thai,
+          brazilian jiu jitsu, and boxing. Play videogames and learn about the
+          mathematics and design behind their development. Study Japanese and
+          watch anime.
         </p>
       </div>
       <div id='timeline-container'>
