@@ -8,7 +8,6 @@ import bartender from '../assets/bartender.png';
 import data from '../assets/data.png';
 import keyboard from '../assets/keyboard.png';
 import nurse from '../assets/nurse.png';
-import school from '../assets/school.png';
 import smile from '../assets/smile.png';
 
 function Timeline() {
@@ -18,9 +17,9 @@ function Timeline() {
         className='vertical-timeline-element--work'
         contentStyle={{ background: 'rgb(46,33,87)', color: '#fff' }}
         contentArrowStyle={{ borderRight: '7px solid  rgb(146,0,117)' }}
-        date='2014 - 2022'
+        date='2018 - 2020'
         iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
-        icon={<img className='time-icon' src={bartender} />}>
+        icon={<img className='time-icon' src={nurse} />}>
         <h3 className='vertical-timeline-element-title'>Bartender</h3>
         <h4 className='vertical-timeline-element-subtitle'>
           Port Jefferson, NY
@@ -40,22 +39,9 @@ function Timeline() {
         icon={<img className='time-icon' src={nurse} />}>
         <h3 className='vertical-timeline-element-title'>Nursing School</h3>
         <h4 className='vertical-timeline-element-subtitle'>
-          Suffolk County Community College
+          Stony Brook University
         </h4>
-        <p>LPN Program including clinical rotations.</p>
-      </VerticalTimelineElement>
-      <VerticalTimelineElement
-        className='vertical-timeline-element--work'
-        contentStyle={{ background: 'rgb(46,33,87)', color: '#fff' }}
-        contentArrowStyle={{ borderRight: '7px solid  rgb(146,0,117)' }}
-        date='2020 - 2022'
-        iconStyle={{ background: 'rgb(146,0,117)', color: '#fff' }}
-        icon={<img className='time-icon' src={school} />}>
-        <h3 className='vertical-timeline-element-title'>Computer Science</h3>
-        <h4 className='vertical-timeline-element-subtitle'>
-          Southern New Hampshire University
-        </h4>
-        <p>Online Accelerated Bachelors Program</p>
+        <p>BSRN</p>
       </VerticalTimelineElement>
       <VerticalTimelineElement
         className='vertical-timeline-element--work'
